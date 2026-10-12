@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+</head>
+
+<body>
+    <h1>Donor Information</h1>
+    <table>
+        <tr>
+            <td><label for="firstName">First Name*</label></td>
+            <td><input type="text" id="firstName" name="firstName" required></td>
+        </tr>
+        <tr>
+            <td><label for="lastName">Last Name*</label></td>
+            <td><input type="text" id="lastName" name="lastName" required></td>
+        </tr>
+        <tr>
+            <td><label for="company">Company</label></td>
+            <td><input type="text" id="company" name="company"></td>
+        </tr>
+        <tr>
+            <td><label for="address1">Address 1*</label></td>
+            <td><input type="text" id="address1" name="address1" required></td>
+        </tr>
+        <tr>
+            <td><label for="address2">Address 2</label></td>
+            <td><input type="text" id="address2" name="address2"></td>
+        </tr>
+        <tr>
+            <td><label for="city">City*</label></td>
+            <td><input type="text" id="city" name="city" required></td>
+        </tr>
+        <tr>
+            <td><label for="state">State*</label></td>
+            <td>
+                <select id="state" name="state" required>
+                    <option value="">Select a State</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="zip">Zip Code*</label></td>
+            <td><input type="number" id="zip" name="zip" required></td>
+        </tr>
+        <tr>
+            <td><label for="country">Country*</label></td>
+            <td>
+                <select id="country" name="country" required>
+                    <option value="">Select a Country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="England">England</option>
+                    <option value="South Africa">South Africa</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone</label></td>
+            <td><input type="tel" id="phone" name="phone"></td>
+        </tr>
+        <tr>
+            <td><label for="fax">Fax</label></td>
+            <td><input type="tel" id="fax" name="fax"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email*</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Donation Amount*</td>
+            <td>
+                <input type="radio" id="none" name="amount" value="none" checked>
+                <label for="none">None</label>
+
+                <input type="radio" id="a50" name="amount" value="50">
+                <label for="a50">$50</label>
+                <input type="radio" id="a75" name="amount" value="75">
+                <label for="a75">$75</label>
+                <input type="radio" id="a100" name="amount" value="100">
+                <label for="a100">$100</label>
+                <input type="radio" id="a250" name="amount" value="250">
+                <label for="a250">$250</label>
+                <input type="radio" id="Other" name="amount" value="Other">
+                <label for="Other">Other</label>
+
+
+
+            </td>
+        </tr>
+        <tr>
